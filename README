@@ -1,0 +1,12 @@
+AuthlogicCas
+============
+
+AuthlogicCas is a CAS (a cross-site authentication system designed at Yale for single sign-on authentication) add-on for the Authlogic authentication system.
+
+This extension requires the Rubycas-client plugin and a working CAS server with which it will communicate for CAS authentication.  You can get this plugin at http://code.google.com/p/rubycas-client/  By installing and configuring your CAS client as found in initializers/cas_config.rb, you should present the session variable session[:cas_user], containing the login credentials of a CAS-authenticated user, to this adapter.
+
+By using this extension, calls to persist your Authlogic session should work seamlessly, such as
+
+UserSession.find
+
+Copyright (c) 2009 Rich Davis, released under the MIT license

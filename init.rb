@@ -1,0 +1,2 @@
+require 'authlogic_cas'
+

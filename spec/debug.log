@@ -1,0 +1,394 @@
+# Logfile created on Wed Sep 30 04:51:56 -0400 2009 by /
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (61.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (1.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (1.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (2.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (5.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (2.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (2.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPGError: ERROR: null value in column "crypted_password" violates not-null constraint
+: INSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:07:05.849598', NULL, 't', NULL, NULL, '2009-09-30 09:07:05.825586', NULL, '2009-09-30 09:07:05.849598', NULL, E'darwin', E'xUHTAEvq8v8710M0AcJK', E'52c0af1c849d564e2182dac0ff265d4a6caf81c4', NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'darwin', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (2.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (3.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPGError: ERROR: null value in column "password_salt" violates not-null constraint
+: INSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:14:43.489860', NULL, 't', NULL, NULL, '2009-09-30 09:14:43.487150', E'ignore', '2009-09-30 09:14:43.489860', NULL, E'darwin', E'dHbd_xLAJgNI39uehzp9', E'357e8b2821df7a29afe12e34def2238ad130c916', NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'darwin', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (2.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:15:36.384820', NULL, 't', NULL, NULL, '2009-09-30 09:15:36.382185', E'ignore', '2009-09-30 09:15:36.384820', NULL, E'darwin', E'WR7DbkaLSC06hlokgw4R', E'950905c2ce8596db9d4fbe64921918d012552d47', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'darwin', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:15:36.645653', E'logged_in', 918208508, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208508) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208508) [0m
+  [4;36;1mUser Update (2.4ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:15:36.657924', "perishable_token" = E'S32ISJZttoe0vaMFdEkc', "activities_count" = 1 WHERE "id" = 918208508[0m
+  [4;35;1mUser Update (0.6ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:15:36.666112', "login_slug" = E'darwin', "created_at" = '2009-09-30 09:15:36.384820', "perishable_token" = E'tjdW7CUNiCEim7CXyoKu', "login" = E'darwin', "activation_code" = E'950905c2ce8596db9d4fbe64921918d012552d47', "last_request_at" = '2009-09-30 09:15:36.382185', "last_login_at" = '2009-09-30 09:15:36.663857', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208508[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (2.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (1.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:20:12.924720', NULL, 't', NULL, NULL, '2009-09-30 09:20:12.922207', E'ignore', '2009-09-30 09:20:12.924720', NULL, E'darwin', E'UGw7zlvE8R_mBSgrSalB', E'1cba6ff747c362bf9b7445b5dbf44561a13f7e0b', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'darwin', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:20:13.093224', E'logged_in', 918208508, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208508) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208508) [0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:20:13.104409', "perishable_token" = E'4asdIDrxZZaGhYhpFwTd', "activities_count" = 1 WHERE "id" = 918208508[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:20:13.109917', "login_slug" = E'darwin', "created_at" = '2009-09-30 09:20:12.924720', "perishable_token" = E'GsqD22cLnP68YdOyNix9', "login" = E'darwin', "activation_code" = E'1cba6ff747c362bf9b7445b5dbf44561a13f7e0b', "last_request_at" = '2009-09-30 09:20:12.922207', "last_login_at" = '2009-09-30 09:20:13.108043', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208508[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = E'charles@example.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:20:13.300832', NULL, 't', NULL, NULL, '2009-09-30 09:20:13.298306', E'ignore', '2009-09-30 09:20:13.300832', NULL, E'charles-example-com', E'shXgZ80jU40sFx2iqThR', E'abf432cc61054abdb98ab8ffc3ba998428cb346f', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles@example.com', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:20:13.307360', E'logged_in', 918208509, NULL, NULL) RETURNING "id"[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208509) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208509) [0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:20:13.314180', "perishable_token" = E'jieLo6cw6waPTEHy6HEV', "activities_count" = 1 WHERE "id" = 918208509[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:20:13.319493', "login_slug" = E'charles-example-com', "created_at" = '2009-09-30 09:20:13.300832', "perishable_token" = E'JQ0JCC27Vu2zINbEM2Qp', "login" = E'charles@example.com', "activation_code" = E'abf432cc61054abdb98ab8ffc3ba998428cb346f', "last_request_at" = '2009-09-30 09:20:13.298306', "last_login_at" = '2009-09-30 09:20:13.317864', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208509[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (2.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:20:51.324143', NULL, 't', NULL, NULL, '2009-09-30 09:20:51.320622', E'ignore', '2009-09-30 09:20:51.324143', NULL, E'darwin', E'y9ui28QP-6iH-N3Q8ZN4', E'efe03bf738ddd670d2ecdcab7f7b726c5eecaa2f', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'darwin', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:20:51.489822', E'logged_in', 918208508, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208508) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208508) [0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:20:51.500945', "perishable_token" = E'-FZYO7WpK8L2sgx-UWJq', "activities_count" = 1 WHERE "id" = 918208508[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:20:51.508262', "login_slug" = E'darwin', "created_at" = '2009-09-30 09:20:51.324143', "perishable_token" = E'HrDr_cTlV7utzGu0zpp9', "login" = E'darwin', "activation_code" = E'efe03bf738ddd670d2ecdcab7f7b726c5eecaa2f', "last_request_at" = '2009-09-30 09:20:51.320622', "last_login_at" = '2009-09-30 09:20:51.506000', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208508[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;35;1mUser Load (1.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = E'charles@example.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:20:51.698132', NULL, 't', NULL, NULL, '2009-09-30 09:20:51.695790', E'ignore', '2009-09-30 09:20:51.698132', NULL, E'charles-example-com', E'C-ipEFrG3pjAcUT8yiHY', E'94900465ebb9104e2d036491c934ae051cf33bfa', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles@example.com', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:20:51.704658', E'logged_in', 918208509, NULL, NULL) RETURNING "id"[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208509) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208509) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:20:51.711809', "perishable_token" = E'bivxAcHA8vu8BWHoh-Pj', "activities_count" = 1 WHERE "id" = 918208509[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:20:51.718108', "login_slug" = E'charles-example-com', "created_at" = '2009-09-30 09:20:51.698132', "perishable_token" = E'h__dUZrV0uxMhWPoToYJ', "login" = E'charles@example.com', "activation_code" = E'94900465ebb9104e2d036491c934ae051cf33bfa', "last_request_at" = '2009-09-30 09:20:51.695790', "last_login_at" = '2009-09-30 09:20:51.716416', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208509[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (2.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:21:12.429112', NULL, 't', NULL, NULL, '2009-09-30 09:21:12.426515', E'ignore', '2009-09-30 09:21:12.429112', NULL, E'charles', E'WEaAN4gHi1ZYPAbeV7kJ', E'e825d7c192411617900f8ce541a0a548e7505cb7', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:21:12.604686', E'logged_in', 918208508, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208508) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208508) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:21:12.617189', "perishable_token" = E'Y6p7WucQtUPiLQdcdSIT', "activities_count" = 1 WHERE "id" = 918208508[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:21:12.623814', "login_slug" = E'charles', "created_at" = '2009-09-30 09:21:12.429112', "perishable_token" = E'jZrPrI6qXRoUbarqZTnB', "login" = E'charles', "activation_code" = E'e825d7c192411617900f8ce541a0a548e7505cb7', "last_request_at" = '2009-09-30 09:21:12.426515', "last_login_at" = '2009-09-30 09:21:12.622169', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208508[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:21:12.803137', NULL, 't', NULL, NULL, '2009-09-30 09:21:12.800777', E'ignore', '2009-09-30 09:21:12.803137', NULL, E'charles', E'SwANSYDVx_V1LWnX_Eeb', E'ade530415a3072aa624e828106e29fb068f26af4', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:21:12.810288', E'logged_in', 918208509, NULL, NULL) RETURNING "id"[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208509) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208509) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:21:12.817308', "perishable_token" = E'pQTk7qY35iYJO56a9tLL', "activities_count" = 1 WHERE "id" = 918208509[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:21:12.823341', "login_slug" = E'charles', "created_at" = '2009-09-30 09:21:12.803137', "perishable_token" = E'9eXC4b_qSyIbs39Hli5S', "login" = E'charles', "activation_code" = E'ade530415a3072aa624e828106e29fb068f26af4', "last_request_at" = '2009-09-30 09:21:12.800777', "last_login_at" = '2009-09-30 09:21:12.821544', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208509[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:21:12.844446', NULL, 't', NULL, NULL, '2009-09-30 09:21:12.841703', E'ignore', '2009-09-30 09:21:12.844446', NULL, E'darwin', E'cXjAE1yiX4ljv57DoGxI', E'df320c319aa9f2cb376086f9e20e19a5d1a7b53a', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'darwin', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:21:12.850825', E'logged_in', 918208510, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208510) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208510) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:21:12.857375', "perishable_token" = E'LYmPtGjp8dFr3qC9i96O', "activities_count" = 1 WHERE "id" = 918208510[0m
+  [4;35;1mUser Update (1.1ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:21:12.863423', "login_slug" = E'darwin', "created_at" = '2009-09-30 09:21:12.844446', "perishable_token" = E'cNKmYD8RCj786Jg82bl1', "login" = E'darwin', "activation_code" = E'df320c319aa9f2cb376086f9e20e19a5d1a7b53a', "last_request_at" = '2009-09-30 09:21:12.841703', "last_login_at" = '2009-09-30 09:21:12.861322', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208510[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = E'charles@example.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:21:12.893416', NULL, 't', NULL, NULL, '2009-09-30 09:21:12.891170', E'ignore', '2009-09-30 09:21:12.893416', NULL, E'charles-example-com', E'tipnQZpxtA3CRUVgCcW3', E'14198f95ccc9d611fbf5f1f4b1ac135909db05e4', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles@example.com', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:21:12.899243', E'logged_in', 918208511, NULL, NULL) RETURNING "id"[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208511) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208511) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:21:12.906416', "perishable_token" = E'KOzZAAI-jKlbyHDOk9V5', "activities_count" = 1 WHERE "id" = 918208511[0m
+  [4;36;1mUser Update (0.7ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:21:12.912706', "login_slug" = E'charles-example-com', "created_at" = '2009-09-30 09:21:12.893416', "perishable_token" = E'sfDRb4EzerauBJiYpBg-', "login" = E'charles@example.com', "activation_code" = E'14198f95ccc9d611fbf5f1f4b1ac135909db05e4', "last_request_at" = '2009-09-30 09:21:12.891170', "last_login_at" = '2009-09-30 09:21:12.910841', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208511[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (2.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:24:46.013571', NULL, 't', NULL, NULL, '2009-09-30 09:24:46.010158', E'ignore', '2009-09-30 09:24:46.013571', NULL, E'charles', E'9zJrgAzoMe1vZV5glVJw', E'a1042f339eca9baa1e97ca8a875a275fe87a1865', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:24:46.177338', E'logged_in', 918208508, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208508) [0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208508) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:24:46.188758', "perishable_token" = E'ffOWIUN3ZLhAWNCU7tzl', "activities_count" = 1 WHERE "id" = 918208508[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:24:46.194597', "login_slug" = E'charles', "created_at" = '2009-09-30 09:24:46.013571', "perishable_token" = E'FS73YVTKsh5DgkmI55W4', "login" = E'charles', "activation_code" = E'a1042f339eca9baa1e97ca8a875a275fe87a1865', "last_request_at" = '2009-09-30 09:24:46.010158', "last_login_at" = '2009-09-30 09:24:46.192489', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208508[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:24:46.375842', NULL, 't', NULL, NULL, '2009-09-30 09:24:46.373658', E'ignore', '2009-09-30 09:24:46.375842', NULL, E'charles', E'hUFn2bbDZgBfCi9AG9iM', E'a330061734b9982e82cf3be92c9f5b2d0ff0eadc', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:24:46.381995', E'logged_in', 918208509, NULL, NULL) RETURNING "id"[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208509) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208509) [0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:24:46.388489', "perishable_token" = E'Ad3RfPSgYUlB928pB3XY', "activities_count" = 1 WHERE "id" = 918208509[0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:24:46.394676', "login_slug" = E'charles', "created_at" = '2009-09-30 09:24:46.375842', "perishable_token" = E'ThfFiEh8zGpmYcgdcnfQ', "login" = E'charles', "activation_code" = E'a330061734b9982e82cf3be92c9f5b2d0ff0eadc', "last_request_at" = '2009-09-30 09:24:46.373658', "last_login_at" = '2009-09-30 09:24:46.392818', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208509[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (1.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:24:46.421461', NULL, 't', NULL, NULL, '2009-09-30 09:24:46.419126', E'ignore', '2009-09-30 09:24:46.421461', NULL, E'darwin', E'ICG_QFcZZkkNy5kokdC1', E'9acd9f0e8731f6452992383271663b1b2f8b49ed', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'darwin', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:24:46.432345', E'logged_in', 918208510, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208510) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208510) [0m
+  [4;36;1mUser Update (0.8ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:24:46.469145', "perishable_token" = E'qhjrnKM7I8F7J9nRp0JK', "activities_count" = 1 WHERE "id" = 918208510[0m
+  [4;35;1mUser Update (0.7ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:24:46.477010', "login_slug" = E'darwin', "created_at" = '2009-09-30 09:24:46.421461', "perishable_token" = E'rtxwEj7JzkZA0NJ-Vxd6', "login" = E'darwin', "activation_code" = E'9acd9f0e8731f6452992383271663b1b2f8b49ed', "last_request_at" = '2009-09-30 09:24:46.419126', "last_login_at" = '2009-09-30 09:24:46.474817', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208510[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = E'charles@example.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:24:46.505770', NULL, 't', NULL, NULL, '2009-09-30 09:24:46.503541', E'ignore', '2009-09-30 09:24:46.505770', NULL, E'charles-example-com', E'pjQolX95ucUp22d7ssyk', E'79f4d733c7472296294997ded6924bad80e8e7c7', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles@example.com', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:24:46.511529', E'logged_in', 918208511, NULL, NULL) RETURNING "id"[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208511) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208511) [0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:24:46.519722', "perishable_token" = E'sjt4Pyo7dOsO078Jif2h', "activities_count" = 1 WHERE "id" = 918208511[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:24:46.524964', "login_slug" = E'charles-example-com', "created_at" = '2009-09-30 09:24:46.505770', "perishable_token" = E'i_u0c079HwwESDmXcwM3', "login" = E'charles@example.com', "activation_code" = E'79f4d733c7472296294997ded6924bad80e8e7c7', "last_request_at" = '2009-09-30 09:24:46.503541', "last_login_at" = '2009-09-30 09:24:46.523447', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208511[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (3.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:27:39.542062', NULL, 't', NULL, NULL, '2009-09-30 09:27:39.539528', E'ignore', '2009-09-30 09:27:39.542062', NULL, E'charles', E'7wkc1H9WtrWm_m1OI_SI', E'01c827dc5d861f41b6c48855013bf3aba661849f', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:27:39.724398', E'logged_in', 918208508, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (1.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208508) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208508) [0m
+  [4;36;1mUser Update (0.9ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:27:39.739447', "perishable_token" = E'q-mnog5SZ7JRmyplGRtb', "activities_count" = 1 WHERE "id" = 918208508[0m
+  [4;35;1mUser Update (0.6ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:27:39.745435', "login_slug" = E'charles', "created_at" = '2009-09-30 09:27:39.542062', "perishable_token" = E'l4NK7j-Ys5wlMCm1Mo24', "login" = E'charles', "activation_code" = E'01c827dc5d861f41b6c48855013bf3aba661849f', "last_request_at" = '2009-09-30 09:27:39.539528', "last_login_at" = '2009-09-30 09:27:39.743686', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208508[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:27:39.959621', NULL, 't', NULL, NULL, '2009-09-30 09:27:39.956943', E'ignore', '2009-09-30 09:27:39.959621', NULL, E'darwin', E'71VRfbSLxxNOiZIsD2jV', E'81cdb5c6ef288f029a946c2f09d033c4cff62aff', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'darwin', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:27:39.967350', E'logged_in', 918208509, NULL, NULL) RETURNING "id"[0m
+  [4;35;1mUser Load (1.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208509) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208509) [0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:27:39.975820', "perishable_token" = E'YfWXNCuab4zmsQ8aBEFT', "activities_count" = 1 WHERE "id" = 918208509[0m
+  [4;36;1mUser Update (1.2ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:27:39.982714', "login_slug" = E'darwin', "created_at" = '2009-09-30 09:27:39.959621', "perishable_token" = E'aZevS0twD67b7k9mYPtg', "login" = E'darwin', "activation_code" = E'81cdb5c6ef288f029a946c2f09d033c4cff62aff', "last_request_at" = '2009-09-30 09:27:39.956943', "last_login_at" = '2009-09-30 09:27:39.980454', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208509[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (3.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = E'charles@example.com') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:27:40.016896', NULL, 't', NULL, NULL, '2009-09-30 09:27:40.014299', E'ignore', '2009-09-30 09:27:40.016896', NULL, E'charles-example-com', E'ZAKIobMz-BV2IOUtMk8F', E'052883e418d8a488806e99a1c9d1fc5c2a83c58f', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles@example.com', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:27:40.023359', E'logged_in', 918208510, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208510) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208510) [0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:27:40.032434', "perishable_token" = E'ziSemVqcme238d6jTcms', "activities_count" = 1 WHERE "id" = 918208510[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:27:40.038961', "login_slug" = E'charles-example-com', "created_at" = '2009-09-30 09:27:40.016896', "perishable_token" = E'HICAuRRUdBf52w3lx8h5', "login" = E'charles@example.com', "activation_code" = E'052883e418d8a488806e99a1c9d1fc5c2a83c58f', "last_request_at" = '2009-09-30 09:27:40.014299', "last_login_at" = '2009-09-30 09:27:40.037254', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208510[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mUser Load (3.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'charles') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:28:59.533634', NULL, 't', NULL, NULL, '2009-09-30 09:28:59.531287', E'ignore', '2009-09-30 09:28:59.533634', NULL, E'charles', E'rcqM4mUGMEsvmf1sOvWx', E'2cecc3764574f5d3d4ea3dfdf5cdcd7bdee41501', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:28:59.695919', E'logged_in', 918208508, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208508) [0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208508) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:28:59.708911', "perishable_token" = E'8SPfX24zJLOpF3wTaEuP', "activities_count" = 1 WHERE "id" = 918208508[0m
+  [4;35;1mUser Update (0.8ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:28:59.715250', "login_slug" = E'charles', "created_at" = '2009-09-30 09:28:59.533634', "perishable_token" = E'e_OVPjKtkaYf0b4eHRMj', "login" = E'charles', "activation_code" = E'2cecc3764574f5d3d4ea3dfdf5cdcd7bdee41501', "last_request_at" = '2009-09-30 09:28:59.531287', "last_login_at" = '2009-09-30 09:28:59.713478', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208508[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = E'darwin') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:28:59.902791', NULL, 't', NULL, NULL, '2009-09-30 09:28:59.900166', E'ignore', '2009-09-30 09:28:59.902791', NULL, E'darwin', E'ELpZZIrxEg944HkuTOsS', E'533b4be3572ae86aaf2b0bda320363baf4a59b88', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'darwin', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:28:59.909875', E'logged_in', 918208509, NULL, NULL) RETURNING "id"[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208509) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208509) [0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:28:59.916190', "perishable_token" = E'5GtzzcjuzOD-W-jvP39M', "activities_count" = 1 WHERE "id" = 918208509[0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:28:59.922556', "login_slug" = E'darwin', "created_at" = '2009-09-30 09:28:59.902791', "perishable_token" = E'm0e6Z71rny83GZTBr7J4', "login" = E'darwin', "activation_code" = E'533b4be3572ae86aaf2b0bda320363baf4a59b88', "last_request_at" = '2009-09-30 09:28:59.900166', "last_login_at" = '2009-09-30 09:28:59.920828', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208509[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = E'must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 918208507) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = E'charles@example.com') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO "users" ("created_at", "activated_at", "notify_comments", "zip", "single_access_token", "last_request_at", "crypted_password", "updated_at", "stylesheet", "login_slug", "perishable_token", "activation_code", "country_id", "role_id", "avatar_id", "gender", "failed_login_count", "current_login_ip", "password_salt", "current_login_at", "persistence_token", "birthday", "activities_count", "login_count", "description", "vendor", "notify_friend_requests", "featured_writer", "sb_posts_count", "sb_last_seen_at", "last_login_ip", "login", "state_id", "metro_area_id", "notify_community_news", "last_login_at", "profile_public", "email", "view_count") VALUES('2009-09-30 09:28:59.948824', NULL, 't', NULL, NULL, '2009-09-30 09:28:59.946313', E'ignore', '2009-09-30 09:28:59.948824', NULL, E'charles-example-com', E'47iyazr14sinZ9u5GPs-', E'5f1e236918a6d16a9eb5784c77d3f4763b99e8ad', NULL, NULL, NULL, NULL, 0, NULL, E'ignore', NULL, NULL, NULL, 0, 0, NULL, 'f', 't', 'f', 0, NULL, NULL, E'charles@example.com', NULL, NULL, 't', NULL, 't', NULL, 0) RETURNING "id"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "activities" ("created_at", "action", "user_id", "item_id", "item_type") VALUES('2009-09-30 09:28:59.954525', E'logged_in', 918208510, NULL, NULL) RETURNING "id"[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 918208510) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "activities" WHERE (user_id = 918208510) [0m
+  [4;36;1mUser Update (0.9ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2009-09-30 09:28:59.961116', "perishable_token" = E'ZEM-U1VPB_6vHdP8BgEA', "activities_count" = 1 WHERE "id" = 918208510[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "updated_at" = '2009-09-30 09:28:59.968034', "login_slug" = E'charles-example-com', "created_at" = '2009-09-30 09:28:59.948824', "perishable_token" = E'TgwrVT-UF2hzJky2gGCg', "login" = E'charles@example.com', "activation_code" = E'5f1e236918a6d16a9eb5784c77d3f4763b99e8ad', "last_request_at" = '2009-09-30 09:28:59.946313', "last_login_at" = '2009-09-30 09:28:59.965633', "password_salt" = E'ignore', "crypted_password" = E'ignore' WHERE "id" = 918208510[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
