@@ -20,6 +20,7 @@ module AuthlogicCas
         FileUtils.mkdir_p session_tmp unless File.directory?(session_tmp)
 
         klass.class_eval do
+          klass.persist.clear #eliminate any other callbacks, since they insist on intruding and causing trouble
           persist :persist_by_cas, :if => :authenticating_with_cas?
         end
       end
@@ -33,11 +34,9 @@ module AuthlogicCas
       def persist_by_cas
         session_key = CASClient::Frameworks::Rails::Filter.client.username_session_key
         if controller.session.key?(session_key) && !controller.session[session_key].blank?
-
-
           record = search_for_record("find_by_#{UserSession.cas_user_identifier}", controller.session[session_key])
 
-          unless self.record
+          if self.record.nil?
            #RELIES ON this method to securely validate that this user request stems from a real user
             record = User.new({:login => controller.session[session_key], User.crypted_password_field => 'ignore', User.password_salt_field => 'ignore'})
 
