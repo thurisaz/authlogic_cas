@@ -36,7 +36,7 @@ module AuthlogicCas
         if controller.session.key?(session_key) && !controller.session[session_key].blank?
           record = search_for_record("find_by_#{UserSession.cas_user_identifier}", controller.session[session_key])
 
-          if self.record.nil?
+          if record.nil?
            #RELIES ON this method to securely validate that this user request stems from a real user
             record = User.new({:login => controller.session[session_key], User.crypted_password_field => 'ignore', User.password_salt_field => 'ignore'})
 
