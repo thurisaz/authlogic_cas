@@ -26,7 +26,6 @@ module AuthlogicCas
         unless controller.session[session_key].blank?
           self.attempted_record = search_for_record("find_by_#{klass.login_field}", controller.session[session_key])
         end
-        debugger
         !self.attempted_record.nil?
       end
 
