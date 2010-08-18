@@ -2,53 +2,32 @@ module AuthlogicCas
   module Session
     def self.included(klass)
       klass.class_eval do
-        extend Config
         include Methods
       end
     end
- 
-    module Config
-      def cas_user_identifier(value = nil)
-        rw_config :cas_user_identifier, value, 'login'
-      end
-      alias_method :cas_user_identifier=, :cas_user_identifier
-    end
- 
+
     module Methods
       def self.included(klass)
-        session_tmp = "#{RAILS_ROOT}/tmp/sessions"
-        FileUtils.mkdir_p session_tmp unless File.directory?(session_tmp)
-
         klass.class_eval do
-          klass.persist.clear #eliminate any other callbacks, since they insist on intruding and causing trouble
+          persist.reject{|cb| [:persist_by_params,:persist_by_session,:persist_by_http_auth].include?(cb.method)}
           persist :persist_by_cas, :if => :authenticating_with_cas?
         end
       end
 
-      #no credentials are passed in: the CAS server takes care of that and saving the session
-      def credentials=(value)
-        values = [:garbage]
-        super
-      end
+      # no credentials are passed in: the CAS server takes care of that and saving the session
+      # def credentials=(value)
+      #   values = [:garbage]
+      #   super
+      # end
 
       def persist_by_cas
         session_key = CASClient::Frameworks::Rails::Filter.client.username_session_key
-        if controller.session.key?(session_key) && !controller.session[session_key].blank?
-          record = search_for_record("find_by_#{UserSession.cas_user_identifier}", controller.session[session_key])
 
-          if record.nil?
-           #RELIES ON this method to securely validate that this user request stems from a real user
-            record = User.new({:login => controller.session[session_key], User.crypted_password_field => 'ignore', User.password_salt_field => 'ignore'})
-
-            if record.login.length > 255
-              record = nil
-            end
-          end
-
-          self.attempted_record = self.unauthorized_record = record
+        unless controller.session[session_key].blank?
+          self.attempted_record = search_for_record("find_by_#{klass.login_field}", controller.session[session_key])
         end
-
-        self.unauthorized_record.nil? ? false : true
+        debugger
+        !self.attempted_record.nil?
       end
 
       def authenticating_with_cas?
