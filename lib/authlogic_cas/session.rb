@@ -9,7 +9,12 @@ module AuthlogicCas
     module Methods
       def self.included(klass)
         klass.class_eval do
-          persist.reject{|cb| [:persist_by_params,:persist_by_session,:persist_by_http_auth].include?(cb.method)}
+          skips = [:persist_by_params,:persist_by_session,:persist_by_http_auth]
+          if respond_to? :skip_callback
+            skips.each {|cb| skip_callback :persist, cb }
+          else
+            persist.reject {|cb| skips.include?(cb.method)}
+          end
           persist :persist_by_cas, :if => :authenticating_with_cas?
         end
       end
